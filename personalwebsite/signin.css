@@ -1,0 +1,268 @@
+
+* {
+	box-sizing: border-box;
+}
+body{
+    background-image: url(../personalwebsite/image/pagebackground.jpg);
+	background-size: cover;
+	font-family: 'Pacifico', cursive;
+}
+img {
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+	margin: 0px;
+}
+
+.logo{
+    clear: both;
+	padding-left: 25px;
+	margin-bottom: 0px;
+    width: 20%;
+    position: fixed; top: 0%; left: 0%;
+}
+
+#top-nav{
+	float: right;
+	margin-top: 1%;
+	margin-left: 10;
+}
+#top-nav ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+#top-nav ul li a:hover, #top-nav ul li a:focus, #top-nav ul li a:active {
+color: #16f;
+border-bottom: 2px solid #39f;
+}
+
+nav ul a, nav ul a:visited,nav ul a:link{
+	text-decoration: none;
+	color: #333;
+
+}
+
+#main-nav ul li a{
+	width: 20%;
+	padding: 5px;
+	display: block;
+	float: left;
+	text-align: center;
+	background: rgb(51, 224, 255);
+	color: #010211;
+	border: 2px solid rgb(119, 10, 114);
+    
+}
+#main-nav a:hover,#main-nav a:focus,#main-nav a:active{
+	background: #fff;
+	color: #36f;
+	border: 1px solid #36f;
+}
+
+
+
+#secondary-nav a:hover,#secondary-nav a:focus, #secondary-nav a:active{
+	background: rgb(196, 49, 49);
+	color: #39f;
+}
+header {
+	padding: 0px 0px 10px;
+	background: #ff0037;
+	width: 100%;
+	min-height: 100px;
+   
+}
+header h1 {
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 0px;
+    
+}
+
+.container {
+	margin: 0px auto;
+	width: 1180px;
+	clear: both;
+}
+#navigation {
+	font-size: 1.3em;	
+	line-height: 1.4em;
+}
+#primary {
+	width: 20%;
+	margin: 0px;
+	float: left;
+}
+#main {
+	margin: 0px;
+	padding: 0px 25px;
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+	background-color: #fff;
+    position: center;
+    border: 2px solid #ff00bf;
+}
+#sidebar {
+	margin: 0px;
+	width: 20%;
+	float:left;
+	background: rgb(16, 55, 228);
+	color: #333;
+	padding: 15px;
+	min-height: 300px;
+	
+}
+h1 {
+	font-size: 48px;	
+}
+.post-heading {
+	color: #006633;
+	font-size: 1.8em;
+	margin-bottom: 0px;	
+}
+.hero-image	{
+	float:left;
+}
+.hero-image img {
+	width: 100%;
+}
+article p {
+	text-align: justify;
+	text-indent: 25px;
+	padding:10px;
+	column-count: 2;
+
+}
+.article-thumbs	{
+	text-align: center;
+	clear:both;
+}
+.article-thumbs img {
+	border-radius: 50%;
+	max-width: 200px;
+}
+footer	{
+	clear: both;
+	padding:20px 0px;
+	border-top: 5px groove #ff00bf;
+	
+}
+.column{
+	width: 30.5%;
+	float: left;
+	margin: 0 10px;
+}
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+.signincontainer {
+	position: relative;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px 0 30px 0;
+  }
+  a{
+	color: black;
+text-decoration: none;
+
+}
+
+
+
+
+
+
+
